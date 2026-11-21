@@ -1,0 +1,46 @@
+﻿# Compiled Binaries & Object Files
+*.exe
+*.bin
+*.o
+*.obj
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Editor and Tooling Directories
+.vscode/
+.vs/
+.idea/
+.cph/
+output/
+obj/
+bin/
+
+# Temporary and Log Files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS Specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.venv/
+env/
+venv/
+ENV/
+
+# Code::Blocks
+*.depend
+*.layout
+*.cbp

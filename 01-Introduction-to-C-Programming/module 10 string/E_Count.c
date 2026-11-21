@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char s[1000001];
+  
+    scanf("%s",&s);
+    int lenth = strlen(s); 
+
+    int sum = 0;
+    
+    for(int i = 0; i< lenth; i++){
+          
+        sum += s[i] - 48;
+    }
+    printf("%d\n",sum);
+    return 0;
+}
